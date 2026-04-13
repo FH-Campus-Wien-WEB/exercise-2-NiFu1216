@@ -1,41 +1,66 @@
-@import url(base.css);
+@import url("base.css");
 
-h1 {
-  font-size: 200%;
-  margin: 8px 0px;
+* {
+  font-family: "Arial", sans-serif;
+  color: black;
+  box-sizing: border-box;
 }
 
-img {
-  border-radius: 12px;
+body {
+  background-color: white;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 article {
+  width: 400px;
+  border: black solid 1px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 25px;
+  background: -webkit-linear-gradient(-45deg, rgba(107, 250, 255, 1), rgba(74, 66, 252, 1));
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -8px -8px 8px rgba(0, 0, 0, 0.2) inset;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Verdana, sans-serif;
+  font-weight: lighter;
+  color: white;
+  border: black solid 1px;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 15px;
   background-color: lightgray;
-  border-radius: 16px;
-  padding: 16px;
-  margin: 2vw;
+  margin: 50px auto 20px;
+  background: -webkit-linear-gradient(-45deg, rgba(107, 250, 255, 1), rgba(74, 66, 252, 1));
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -8px -8px 8px rgba(0, 0, 0, 0.2) inset;
 }
 
-span {
-  margin-right: 4px;
-}
-
-.genre {
-  padding: 4px 8px;
-  border: solid black 1px;
-  border-radius: 6px;
-  background-color: darkgray;
+.movie_title {
+  margin: 10px auto 25px;
+  color: white;
   font-weight: bold;
+  width: fit-content;
+  border-radius: 10px;;
+  border: black solid 1px;
+  padding: 10px;
+  background: -webkit-linear-gradient(-225deg, rgb(70, 212, 255), rgba(74, 66, 252, 1));
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -8px -8px 8px rgba(0, 0, 0, 0.2) inset;
 }
 
-input {
-  width: 100%;
+img {
+  width: 40%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: black solid 1px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15), -8px -8px 8px rgba(0, 0, 0, 0.2) inset;
 }
 
-select {
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
+p, li {
+  font-size: 19px;
 }
